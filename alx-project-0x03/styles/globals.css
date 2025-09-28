@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* If you are not using Tailwind CSS, remove these lines. If you are, make sure your build tool supports Tailwind directives. */
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
